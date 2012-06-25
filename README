@@ -1,0 +1,44 @@
+README
+------
+
+    DEPENDENCIES
+    ------------
+    
+    + lemon1.2.3: http://lemon.cs.elte.hu/pub/sources/lemon-1.2.3.tar.gz
+    
+    + cmake: http://www.cmake.org/
+    
+    INSTALL
+    -------
+    
+Since you are reading this I assume you already obtained one of the release
+archive and successfully extracted it.
+This archive provides build environment based on "cmake". 
+This file contains instructions which is the recommended build environment 
+on Linux. 
+	1. `cd ROADEF2012-S14'	
+	      This command changes to the directory which was created when you
+	      extracted the sources.
+	
+	2. You must edit CMakeLists.txt to define the include path of lemon library.
+	   You need only the template part of LEMON.
+	   
+	3. `mkdir build && cd build'	
+	      This command create the directory to compile the Machine 
+	      Reassignment program.	 
+
+	3. `cmake ..'
+	      This command create the makefiles.
+	      				
+	3. `make'
+	      This command compile the programm.			
+
+
+This code was developed in the context of the ROADEF/EURO challenge 2012. 
+The code was developed by:
+
+    - Nicolas Teypaz, Probayes SAS, Research Engineer (2012)
+    
+
+    
+    Team : S14 (Senior, Open-source)
